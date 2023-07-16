@@ -1,1 +1,112 @@
 
+h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  background-color: aqua;
+  border-radius: 10px;
+
+}
+    
+.container{
+  display: flex;
+  flex-direction: column;
+ 
+  background-color: black;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+
+
+  border-radius: 15px;
+}
+.btnclass{
+  height:100px;
+  display:flex;
+ justify-content: space-evenly;
+}
+div button{
+  background-color: aqua;
+  border-radius: 10px;
+}
+ 
+#newsContainer{
+      display:flex;
+      flex-direction: column;
+      gap: 10px;
+      width:70%;
+      margin-left: 170px;
+    margin-top: 10px;
+    }
+
+.news-card{
+  
+  flex-direction: column;
+  background-color: slateblue;
+  border-radius: 10px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+
+}
+
+.news-card .cat{
+display: inline-flex;
+float: right;
+margin-right: 10px;
+height: auto;
+}
+
+.news-card .auther{
+  display: inline-flex;
+  margin-left: 10px;
+ 
+}
+
+.news-card .btn-btn{
+  display: inline-flex;
+float: right;
+margin-right: 10px;
+}
+.news-card{
+  padding-left:10px ;
+}
+img{
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+  margin-left: 100px;
+}
+
+.container .first{
+  background-color: black;
+
+}
+.sec{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+ justify-content: center;
+ margin-left: 100px;
+ margin-right: 100px;
+ border-radius: 10px;
+ gap: 10px;
+ 
+}
+.sec .item1{
+  display: flex;
+ background-color: black;
+ color: aliceblue;
+  justify-content: center;
+ font-weight: 1000;
+ height: auto;
+}
+
+.sec .item2{
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+   justify-content: center;
+}
+
