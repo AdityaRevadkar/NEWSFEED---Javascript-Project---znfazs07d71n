@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>New News</h1>
+    <label for="categorySelect">Select Category:</label>
+    <select id="categorySelect" onchange="filter()">
+        <option value="all">All</option>
+        <option value="business">Business</option>
+        <option value="sports">Sports</option>
+        <option value="science">Science</option>
+        <option value="hatke">Hatke</option>
+        <option value="world">World</option>
+        <option value="politics">Politics</option>
+    </select>
+
+    <div id="newsContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
